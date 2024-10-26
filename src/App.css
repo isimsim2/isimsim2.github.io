@@ -1,0 +1,118 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* ㅇㅇㅇㅇㅇㅇ */
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.chordGroup {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.chordBox {
+  flex: 1;
+  background-color: #f0f0f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+  height: 80px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: black;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.chordText {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.detailsContainer {
+  padding: 20px;
+}
+
+.chordTitle {
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.variationRow {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.variationName {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.variationDescription {
+  font-size: 14px;
+  color: #666;
+}
+
+.clickable {
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.clickable:hover {
+  background-color: #e6e6e6;
+}
+
+.imageContainer { 
+  margin-top: 20px;
+  text-align: center;
+}
+
+.chordImage {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
